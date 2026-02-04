@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOPSIS Web App</title>
+</head>
+<body>
+    <h2>TOPSIS Calculator</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label>Upload CSV/XLSX:</label><br>
+        <input type="file" name="file" required><br><br>
+
+        <label>Weights (comma separated):</label><br>
+        <input type="text" name="weights" required><br><br>
+
+        <label>Impacts (comma separated):</label><br>
+        <input type="text" name="impacts" required><br><br>
+
+        <label>Email (optional):</label><br>
+        <input type="email" name="email"><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
