@@ -26,16 +26,14 @@ Example:
 ## ⚙️ Installation
 
 pip install .
----
-```bash
+
 ▶️ Usage
 topsis <inputFile> <weights> <impacts> <outputFile>
 
----
+
 Example
-```bash
 topsis data.csv "1,1,1,1,1" "+,+,-,+,+" result.csv
----
+
 
 
 📊 Output
