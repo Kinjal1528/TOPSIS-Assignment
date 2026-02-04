@@ -25,46 +25,30 @@ Example:
 
 ## ⚙️ Installation
 
-```bash
 pip install .
 
-## ▶️ Usage
-
-```bash
+▶️ Usage
 topsis <inputFile> <weights> <impacts> <outputFile>
 
 
----
-
-### 2️⃣
-
-```markdown
-### Example
-
-```bash
+Example
 topsis data.csv "1,1,1,1,1" "+,+,-,+,+" result.csv
 
 
----
 
-### 3️⃣ After Example, ADD THIS
-
-```markdown
----
-
-## 📊 Output
+📊 Output
 The output file contains:
 - Topsis Score
 - Rank
 
 ---
 
-## 🛠️ Dependencies
+🛠️ Dependencies
 - Python >= 3.7
 - pandas
 - numpy
 
 ---
 
-## 👤 Author
+👤 Author
 Kinjal
